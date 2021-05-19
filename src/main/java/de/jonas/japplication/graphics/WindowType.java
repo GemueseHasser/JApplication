@@ -21,5 +21,8 @@ public final class WindowType {
     /** Der Zustand, ob das Fenster dekoriert ist, oder nicht. */
     @Getter
     private final boolean decorated;
+    /** Der Zustand, ob das Fenster konstant neu gezeichnet werden soll. */
+    @Getter
+    private final boolean repaint;
     //</editor-fold>
 }

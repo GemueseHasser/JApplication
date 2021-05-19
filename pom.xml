@@ -7,8 +7,8 @@
     <name>JApplication</name>
     <description>Eine API, um Anwendungen leicht zu entwickeln.</description>
 
-    <groupId>de</groupId>
-    <artifactId>jonas</artifactId>
+    <groupId>de.jonas</groupId>
+    <artifactId>japplication</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <url>http://beefman.bplaced.net/</url>
 

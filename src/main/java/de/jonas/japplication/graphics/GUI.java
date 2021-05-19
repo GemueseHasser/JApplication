@@ -130,6 +130,10 @@ public abstract class GUI {
 
             g.dispose();
 
+            if (!GUI.this.type.isRepaint()) {
+                return;
+            }
+
             super.repaint();
         }
         //</editor-fold>
