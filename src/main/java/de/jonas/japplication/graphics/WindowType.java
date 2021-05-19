@@ -8,6 +8,7 @@ import lombok.RequiredArgsConstructor;
  */
 @RequiredArgsConstructor
 public final class WindowType {
+    //<editor-fold desc="LOCAL FIELDS">
     /** Der Titel des Fensters. */
     @Getter
     private final String title;
@@ -20,4 +21,5 @@ public final class WindowType {
     /** Der Zustand, ob das Fenster dekoriert ist, oder nicht. */
     @Getter
     private final boolean decorated;
+    //</editor-fold>
 }
