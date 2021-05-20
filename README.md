@@ -3,7 +3,7 @@ Eine Application-API
 
 Man kann mit Maven auf die API zugreifen:
 
-"<repositories>
+`<repositories>
    <repository>
        <id>JApplication</id>
        <url>https://maven.pkg.github.com/GemueseHasser/JApplication</url>
@@ -15,11 +15,11 @@ Man kann mit Maven auf die API zugreifen:
    <artifactId>japplication</artifactId>
    <version>VERSION</version>
    <scope>compile</scope>
-</dependency>"
+</dependency>`
 
 Um Zugriff auf das Repository zu haben, muss die settings.xml editiert werden:
 
-"<server>
+`<server>
    <id>github</id>
    <username>USERNAME</username>
    <password>ACCESS_TOKEN</password>
@@ -44,4 +44,4 @@ Um Zugriff auf das Repository zu haben, muss die settings.xml editiert werden:
 
 <activeProfiles>
     <activeProfile>github</activeProfile>
-</activeProfiles>"
+</activeProfiles>`
