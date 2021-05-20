@@ -3,6 +3,8 @@ Eine Application-API
 
 Man kann mit Maven auf die API zugreifen:
 
+(der Text muss in Raw Ansicht angesehen werden)
+
 <repositories>
    <repository>
        <id>JApplication</id>
