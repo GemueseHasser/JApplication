@@ -12,6 +12,14 @@
     <version>0.0.1-SNAPSHOT</version>
     <url>http://beefman.bplaced.net/</url>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub GemueseHasser Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/GemueseHasser/JApplication</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>
