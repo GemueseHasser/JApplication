@@ -1,0 +1,1 @@
+mvn deploy -Dsources=target/JApplication-sources.jar
