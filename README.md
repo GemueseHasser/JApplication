@@ -3,8 +3,7 @@ Eine Application-API
 
 Man kann mit Maven auf die API zugreifen:
 
-(der Text muss in Raw Ansicht angesehen werden)
-
+```
 <repositories>
    <repository>
        <id>JApplication</id>
@@ -18,9 +17,11 @@ Man kann mit Maven auf die API zugreifen:
    <version>VERSION</version>
    <scope>compile</scope>
 </dependency>
+```
 
 Um Zugriff auf das Repository zu haben, muss die settings.xml editiert werden:
 
+```
 <server>
    <id>github</id>
    <username>USERNAME</username>
@@ -47,3 +48,4 @@ Um Zugriff auf das Repository zu haben, muss die settings.xml editiert werden:
 <activeProfiles>
     <activeProfile>github</activeProfile>
 </activeProfiles>
+```
